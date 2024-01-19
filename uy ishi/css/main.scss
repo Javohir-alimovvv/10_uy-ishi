@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    height: auto
+    ;
+    margin: 0 auto;
+    background-image: url(../images/Rectangle\ 9550.png);
+}
+
+.header {
+    max-width: 1600px;
+    height: 80px;
+    background: rgba(23, 25, 29, 0.10);
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    max-width: 1300px;
+    height: 70px;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 72px;
+    height: 30px;
+}
+
+.ul {
+    width: 427px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn {
+    width: 168px;
+    height: 45px;
+    border-radius: 7px;
+    background: #6911AD;
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: transparent;
+
+    &:hover {
+        border: 1px solid #6911AD;
+        background: #FFF;
+        color: #6911AD;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    .navbar {
+        gap: 0px;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+    .navbar {
+        gap: 50px;
+    }
+
+    .ul {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+    .navbar {
+        gap: 60px;
+    }
+
+    .link {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:460px) {
+    .navbar {
+        gap: 20px;
+    }
+
+    .nav_right {
+        gap: 5px;
+    }
+
+    .img_1 {
+        width: 83px;
+        height: 35px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.Bajargan {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 664px;
+    height: 55px;
+    border-radius: 90px;
+    border: 1px solid #999;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(2px);
+    padding: 0px 20px;
+}
+
+.text {
+    color: #272727;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+
+    &:hover {
+        text-align: center;
+        cursor: pointer;
+        color: #FFF;
+        font-family: Proxima Nova;
+        font-size: 16px;
+        font-weight: 700;
+        width: 166px;
+        height: 51px;
+        border-radius: 30px;
+        margin-left: -15px;
+        background: linear-gradient(94deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
+    }
+
+}
+
+
+.text:nth-child(5) {
+    &:hover {
+        margin-right: -15px;
+    }
+}
+
+
+.card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
+
+
+
+
+.img_one {
+    background-image: url(../images/Rectangle\ 9557.png);
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.btn_1 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.img_one_1 {
+    position: absolute;
+    margin-top: 15px;
+    z-index: 2;
+    margin-left: 15px;
+    width: 403px;
+    height: 332px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.87);
+    // display: none;
+}
+
+.img_one_1_1 {
+    width: 87px;
+    height: 87px;
+    margin-left: 300px;
+    margin-bottom: -110px;
+}
+
+.card2 {
+    background-image: url(../images/Rectangle\ 9558.png);
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.btn_2 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card3 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9559.png);
+}
+
+.btn_3 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card4 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9576.png);
+}
+
+.btn_4 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card5 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9577.png);
+}
+
+.btn_5 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card6 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9578.png);
+}
+
+.btn_6 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card7 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9578.png);
+}
+
+.btn_7 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card8 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9577.png);
+}
+
+.btn_8 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card9 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9576.png);
+}
+
+.btn_9 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card10 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9576.png);
+}
+
+.btn_10 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card11 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9578.png);
+}
+
+.btn_11 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.card12 {
+    width: 433px;
+    height: 362px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url(../images/Rectangle\ 9577.png);
+}
+
+.btn_12 {
+    width: 121px;
+    height: 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    border: transparent;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 2;
+    transform: translate(290px, 25px);
+}
+
+.section {
+    width: 1360px;
+    height: 873px;
+    border-radius: 20px;
+    border: 1px solid #999;
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+.section_left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Sizni {
+    width: 640px;
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input {
+    border: transparent;
+    border-bottom: 1px solid black;
+    width: 499px;
+    height: 50px;
+    color: #272727;
+    font-family: Proxima Nova;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Qanday {
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.left_checkbox_group {
+    display: flex;
+    gap: 150px;
+}
+
+.left_checkbox {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.niko {
+    color: #000;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.right_box {
+    width: 487px;
+    height: 592px;
+    border-radius: 10px;
+    background: rgba(83, 83, 83, 0.10);
+    box-shadow: 20px 20px 40px 0px rgba(241, 216, 253, 0.08);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.box_group {
+    display: flex;
+    gap: 66px;
+    margin-bottom: 66px;
+}
+
+.Choy {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-bottom: 10px;
+}
+
+.Suv {
+    color: #000;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Suv_2 {
+    color: #000;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 25px;
+}
+
+.Suv_3 {
+    color: #000;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 55px;
+}
+
+.im_33 {
+    margin-top: 25px;
+}
+.footer{
+    background-image: url(../images/Footer.png);
+    width: 1600px;
+height: 228px;
+flex-shrink: 0;
+}
